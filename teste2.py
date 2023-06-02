@@ -10,7 +10,7 @@ lista_salario = [10, 20, 30, 40]
 lista_nomes = ['Josir', 'Bruno', 'Bruna', 'Anna']
 
 texto = st.text_input("Digite um nome")
-salario = float(st.text_input("Digite o salário"))
+salario = float(st.text_input("Digite o salário", "0"))
 
 dataframe = pd.DataFrame({
     'Nome': lista_nomes,
