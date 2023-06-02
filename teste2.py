@@ -9,8 +9,8 @@ st.write("Tabela")
 lista_salario = [10, 20, 30, 40] 
 lista_nomes = ['Josir', 'Bruno', 'Bruna', 'Anna']
 
-texto = st.input_text("Digite um nome")
-salario = st.input_text("Digite o salário").float()
+texto = st.text_input("Digite um nome")
+salario = st.text_input("Digite o salário").float()
 
 dataframe = pd.DataFrame({
     'Nome': lista_nomes,
