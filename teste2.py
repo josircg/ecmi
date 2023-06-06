@@ -12,7 +12,7 @@ lista_nomes = ['Josir', 'Bruno', 'Bruna', 'Anna']
 texto = st.text_input("Digite um nome")
 salario = float(st.text_input("Digite o salário", "0"))
 if texto == '':
-    return
+    exit
 
 lista_nomes.append(texto)
 lista_salario.append(salario)
