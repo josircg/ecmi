@@ -1,2 +1,2 @@
 # ecmi
-streamlit teste josir
+Exemplos do Streamlit para as turmas da ECMI/FGV
