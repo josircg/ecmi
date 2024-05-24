@@ -9,7 +9,8 @@ def main():
 
     # Entrada de nova tarefa
     new_task = st.text_input('Adicione uma nova tarefa:', '')
-
+    st.write('Exemplo: Limpar a casa')
+    
     # Botão para adicionar tarefa
     if st.button('Adicionar Tarefa'):
         if new_task:  # Adiciona a tarefa se a entrada não estiver vazia
